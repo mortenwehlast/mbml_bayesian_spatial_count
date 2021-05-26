@@ -47,4 +47,4 @@ def load_data(impute=False, new_split=False):
     y_train = y[ix_train]
     y_test = y[ix_test]
 
-    return (X_train, X_test), (y_train, y_test), (k_train, k_test), maps
+    return (X_train, X_test), (y_train, y_test), (k_train, k_test), maps, input_variables
