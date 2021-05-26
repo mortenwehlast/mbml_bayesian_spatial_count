@@ -48,3 +48,7 @@ def load_data(impute=False, new_split=False):
     y_test = y[ix_test]
 
     return (X_train, X_test), (y_train, y_test), (k_train, k_test), maps, input_variables
+
+
+def z_norm(X):
+    return (X - X.mean(axis=0)) / X.std(axis=0)
