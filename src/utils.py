@@ -20,7 +20,9 @@ def load_data(impute=False, new_split=False):
     if impute:
         X = X.fillna(X.median()).values
     y = df["ped_injury_5to18"].values
-    k = df["County"].factorize()[0]
+    k_maps = df["County"].factorize()
+    k = k_maps[0]
+    maps = k_maps[1]
 
     if new_split:
         # Get indeces for dividing data into training and test set.
@@ -45,4 +47,4 @@ def load_data(impute=False, new_split=False):
     y_train = y[ix_train]
     y_test = y[ix_test]
 
-    return (X_train, X_test), (y_train, y_test), (k_train, k_test)
+    return (X_train, X_test), (y_train, y_test), (k_train, k_test), maps
