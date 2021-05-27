@@ -1,6 +1,6 @@
 **Final project in 42186: Model-based Machine Learning, spring 2021**
 
-## Bayesian Spatial Count Model of Traffic in New York.
+## Bayesian Spatial Count Model of Traffic in New York
 *Authors: Jonas Juhler-Nøttrup (S164217), Niels Asp Fuglsang (S164181), Morten Wehlast Jørgensen (S147056), Jens Thuren Lindahl (S124347)*
 
 In this project we investigated how Bayesian spatial count models can be used to model the number of youth pedestrian injuries in the census tracts of New York. 
