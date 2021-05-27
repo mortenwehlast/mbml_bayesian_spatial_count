@@ -9,6 +9,6 @@ In order to run the full analysis and recreate the results, the notebook `main-m
 
 The two datafiles are located in `/data/`. The code for loading the data (together with some preprocessing) is located in `/src/utils.py`. 
 
-The packages together with specific versions needed to run the code succesfully are listed in `Requirements.txt`.
+The packages together with specific versions needed to run the code succesfully are listed in `requirements.txt`.
 
 The notebook `exploration.ipynb` contains the initial explorative analysis that was conducted before handing in *Milestone 1*.
